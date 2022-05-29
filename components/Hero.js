@@ -49,7 +49,7 @@ const Hero = () => {
                     
                     <div className="lg:text-7xl text-6xl text-center mt-5 lg:p-5 text-gray-100 lg:ml-10  font-bold flex lg:justify-start justify-center mx-3">Shreenidhi Batavi </div>
                     <div className=" hidden lg:flex text-gray-100 lg:text-5xl text-4xl text-center mt-5 p-5 font-bold lg:ml-10">I am a Full Stack Developer</div>
-                    <div className=" lg:hidden text-gray-100 lg:text-5xl text-4xl text-center mt-5 p-5 font-bold">I'm Full Stack Developer</div>
+                    <div className=" lg:hidden text-gray-100 lg:text-5xl text-4xl text-center mt-5 p-5 font-bold">I am Full Stack Developer</div>
                     
             <div className='lg:flex hidden h-40 rounded-full w-40 absolute hero_svg  -bottom-20 -right-20 opacity-25'></div>
                     

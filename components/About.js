@@ -23,7 +23,7 @@ const About = () => {
     <div  className=" about_main grid lg:grid-cols-2 mt-10 ">
         {/* Image */}
         <div className="flex justify-center items-center lg:p-0 p-5 "> 
-            <Image width="500px" height="500px" className="about_img rounded-full border-4 lg:m-0 m-4 " src={mypic}/>
+            <Image width="500px" height="500px" className="about_img rounded-full border-4 lg:m-0 m-4 " src={mypic} alt="profile"/>
         </div>
         {/* intro */}
         <div className="flex flex-col justify-center  items-center">
