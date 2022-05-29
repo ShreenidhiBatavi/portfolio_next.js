@@ -71,7 +71,7 @@ management of branches as well. </p>
 
         </div>
             <h1 className="text-2xl text-gray-400 ml-28 font-bold underline">Hobby Projects</h1>
-            <div className="grid grid-cols-3 w-11/12 lg:mx-auto gap-6 p-8">
+            <div className="grid lg:grid-cols-3 w-11/12 lg:mx-auto lg:gap-6 p-8">
                     <div>
                             <img src="/images/cart.png" alt="proj_image"/>
                     <h1 className="text-bold text-center text-lg m-1 text-gray-300">E commerce</h1>
