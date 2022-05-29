@@ -4,6 +4,16 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    /* background-color: #929088; 
+background-image: linear-gradient(310deg, #929088 , #312e2d ); */
+
+background-color: #121212; 
+ background-image:linear-gradient(90deg , #030202, #565556 );
+
+
+
+
+
 }
 
 a {
@@ -14,3 +24,35 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero_main,.about_main{
+  height: 80vh;
+}
+.hero_svg{
+  background-color: #121212; 
+ background-image:linear-gradient(90deg , #030202, #565556 );
+ z-index:0;
+ animation: spin linear 8s infinite;
+}
+@keyframes spin {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+}
+.about_img{
+  background-color: #242323;
+}
+
+.projects{
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.2px);
+  -webkit-backdrop-filter: blur(5.2px);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+
