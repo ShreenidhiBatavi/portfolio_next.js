@@ -55,7 +55,7 @@ const Hero = () => {
                     
             </div>
             {/* photo */}
-            <div className="col-span-1  lg:mt-0 -mt-14 flex lg:justify-center lg:items-center lg:border-t border-amber-300">
+            <div className="col-span-1  lg:mt-0 -mt-16 lg:p-0 p-5 flex lg:justify-center lg:items-center lg:border-t border-amber-300">
                     <Image src={icon} width="500px" height="500px" />
             </div> 
     
