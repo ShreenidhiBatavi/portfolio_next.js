@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect}from 'react'
 import Image from 'next/image'
 import mypic from '../Images/shrinidhi.png'
 // import mypic from '../Images/hero.svg'
@@ -16,13 +16,21 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaMedium } from 'react-icons/fa';
 import { SiNextdotjs } from 'react-icons/si';
-
+import "aos/dist/aos.css";
+import AOS from "aos";
 
 const About = () => {
+    useEffect(() => {
+   
+        AOS.init();
+        AOS.refresh();
+    
+    
+      }, [])
   return (
     <div  className=" about_main grid lg:grid-cols-2 mt-10 ">
         {/* Image */}
-        <div className="flex justify-center items-center lg:p-0 p-5 "> 
+        <div data-aos="fade-right" data-aos-duration="2000" className="flex justify-center items-center lg:p-0 p-5 "> 
             <Image width="500px" height="500px" className="about_img rounded-full border-4 lg:m-0 m-4 " src={mypic} alt="profile"/>
         </div>
         {/* intro */}
@@ -38,7 +46,7 @@ const About = () => {
             </p>
                      {/* skills */}
                     <div className="skills  w-full ">
-                         <h1 className="text-gray-200 text-2xl font-bold  text-gray-200 mb-2  ml-5 underline mt-1 ">My Skills</h1>
+                         <h1 className="text-gray-200 text-2xl font-bold  text-gray-200 mb-5  ml-5 underline mt-1 ">My Skills</h1>
                          <div className="icons grid grid-cols-4 gap-8 lg:p-1 p-3 mt-4">
                          <div className="flex flex-col justify-center items-center">
                             <FaHtml5 className="w-14 h-14 text-gray-100" />

@@ -5,6 +5,9 @@ import icon from '../Images/hero_img.svg'
 import { useState } from 'react'
 import { useRef } from 'react'
 import { useEffect ,useLayoutEffect} from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Hero = () => {
     const [words]=useState(["Developer","Blogger"])
     const [currentWord,setCurrentWord]=useState("")
@@ -33,9 +36,12 @@ const Hero = () => {
     console.log(isDeleting)
 
     } 
-//   useEffect(()=>{
-//         setInterval(()=>typeWriter(),3000)
-//   },[])
+    useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+  
+  
+    }, [])
     
     
    
@@ -44,7 +50,7 @@ const Hero = () => {
     <div className="hero_main  h-3 mt-10 grid lg:grid-cols-2 ">
         {/* Name  */}
 
-            <div className=" col-span-1  flex justify-center flex-col lg:border-b lg:border-r  border-amber-300 relative">
+            <div data-aos="fade-right" data-aos-duration="2000" className=" col-span-1  flex justify-center flex-col lg:border-b lg:border-r  border-amber-300 relative">
                     <div className="lg:text-5xl  text-5xl text-gray-100 ml-11 p-5">Hi  <span className="hi">👋</span>    I am</div>
                     
                     <div className="lg:text-7xl text-6xl text-center mt-5 lg:p-5 text-gray-100 lg:ml-10  font-bold flex lg:justify-start justify-center mx-3">Shreenidhi Batavi </div>
@@ -55,7 +61,7 @@ const Hero = () => {
                     
             </div>
             {/* photo */}
-            <div className="col-span-1  lg:mt-0 -mt-16 lg:p-0 p-5 flex lg:justify-center lg:items-center lg:border-t border-amber-300">
+            <div data-aos="fade-left" data-aos-duration="2000"  className="col-span-1  lg:mt-0 -mt-16 lg:p-0 p-5 flex lg:justify-center lg:items-center lg:border-t border-amber-300">
                     <Image src={icon} width="500px" height="500px" />
             </div> 
     
