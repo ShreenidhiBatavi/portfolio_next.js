@@ -79,7 +79,7 @@ management of branches as well. </p>
                                 
                      </div> 
                      <div>
-                            <img src="/images/cart.png" alt="proj_image"/>
+                            <img src="/images/goal.png" alt="proj_image"/>
                                                    <h1 className="text-bold text-center text-lg m-1 text-gray-300">Goal application</h1>
 
                                 <p className="text-sm text-justify p-3 shadow-xl text-gray-400 ">This application is built using MERN stack, which stands for Mongodb, React.js Express.js and Node.js respectively. In this application user can register and  login. user can also create Golas and update or delete the Goals.</p>
