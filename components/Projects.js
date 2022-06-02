@@ -75,7 +75,7 @@ management of branches as well. </p>
                     <div>
                             <img src="/images/cart.png" alt="proj_image"/>
                     <h1 className="text-bold text-center text-lg m-1 text-gray-300">E commerce</h1>
-                    <p className="text-sm text-justify p-3 shadow-xl text-gray-400 ">This applicatin is built in React.js and tailwind css.This is an E -commerce application where user can view the various products and can see the detailed information of any single product and can add the products to cart.</p>
+                    <p className="text-sm text-justify p-3 shadow-xl text-gray-400 ">This applicatin is built in React.js and tailwind css.This is an E -commerce application where user can view the various products and can see the detailed information of any single product and can add the products to cart</p>
                                 
                      </div> 
                      <div>
