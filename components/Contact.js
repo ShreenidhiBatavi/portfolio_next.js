@@ -16,7 +16,7 @@ const Contact = () => {
     <div>
         <h1 className="text-gray-400 text-center mt-12 text-4xl w-72 mx-auto flex items-center justify-center">Contact Me</h1>
         <div className="grid lg:grid-cols-2 ">
-        <div className="mx-auto flex flex-col justify-center items-center lg:w-11/12 w-full p-6 mt-10">
+        <div className="mx-auto flex flex-col justify-center items-center lg:w-11/12 w-full lg:p-6 lg:mt-10 mt-0">
             <div className="flex flex-col  w-11/12 ">
                     <label className="text-base font-bold mb-2  text-gray-400">Your Name</label>
                     <input
