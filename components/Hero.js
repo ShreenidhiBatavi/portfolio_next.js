@@ -57,7 +57,7 @@ const Hero = () => {
                     <div className=" hidden lg:flex text-gray-100 lg:text-5xl text-4xl text-center mt-5 p-5 font-bold lg:ml-10">I am a Full Stack Developer</div>
                     <div className=" lg:hidden text-gray-100 lg:text-5xl text-4xl text-center mt-5 p-5 font-bold">I am Full Stack Developer</div>
                     
-            <div className='lg:flex hidden h-40 rounded-full w-40 absolute hero_svg  -bottom-20 -right-20 opacity-25'></div>
+            <div className='lg:flex hidden h-40 rounded-full w-40 absolute hero_svg   -bottom-20 -right-20 opacity-25'></div>
                     
             </div>
             {/* photo */}

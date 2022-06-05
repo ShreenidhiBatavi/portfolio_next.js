@@ -37,6 +37,8 @@ a {
  background-image:linear-gradient(90deg , #030202, #565556 );
  z-index:0;
  animation: spin linear 8s infinite;
+ box-shadow: 2px 3px 3px 3px #888888;
+
 }
 @keyframes spin {
   0% {transform: rotate(0deg);}
