@@ -6,11 +6,10 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div  className="min-h-screen">
+    <div  className="min-h-screen overflow-hidden">
       <Head>
         <title>Shreenidhi Batavi</title>
         <meta name="Shreenidhi Batavi" content="Full stack Developer" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
      <Navbar/>
      <Hero/>
