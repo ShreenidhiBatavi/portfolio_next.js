@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
-
+import "aos/dist/aos.css";
+import AOS from "aos";
 const Contact = () => {
        const [name,setName]=useState("")
        const [email,setEmail]=useState("")
