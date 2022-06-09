@@ -51,7 +51,7 @@ const Contact = () => {
             </div>
             <div className="w-full mt-12 mb-8 flex justify-start"><button onClick={handleSubmit} className="bg-gray-400 h-8 p-2 w-40 flex items-center justify-center ml-7 rounded shadow-2xl">Submit</button></div>
         </div>
-        <div className="order-first  flex justify-center items-center lg:p-0 p-5">
+        <div data-aos="fade-right" data-aos-duration="3000" className="order-first  flex justify-center items-center lg:p-0 p-5">
                 <img style={{width:'600px',height:'600px'}}src="/images/mail.svg" alt="contact"/>
         </div>
         </div>
